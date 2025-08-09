@@ -80,7 +80,7 @@ export default function AvatarProcessor() {
       const formData = new FormData()
       formData.append("image", file)
 
-      const response = await fetch("http://127.0.0.1:8989/api/process-avatar/", {
+  const response = await fetch("http://31.97.135.175:8989/api/process-avatar/", {
         method: "POST",
         body: formData,
       })
@@ -322,7 +322,7 @@ export default function AvatarProcessor() {
                 </p>
                 <div className="flex justify-center gap-4 text-sm">
                   <a
-                    href="http://127.0.0.1:8989/api/info/"
+                    href="http://31.97.135.175:8989/api/info/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-600 hover:underline"
@@ -330,7 +330,7 @@ export default function AvatarProcessor() {
                     API Info
                   </a>
                   <a
-                    href="http://127.0.0.1:8989/api/health/"
+                    href="http://31.97.135.175:8989/api/health/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-600 hover:underline"
